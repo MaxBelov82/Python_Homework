@@ -1,9 +1,72 @@
 # Сортировка пузырьком
 
-list_num = [1, 8,7,10, 5,9,4]
-n =len(list_num)
-for i in range(n -1):
-     for j in range(n-i-1):
-          if list_num[j] > list_num[j+1]:
-             list_num[j], list_num[j+1] = list_num[j+1], list_num[j]
-             print(list_num)
+# list_num = [1, 8,7,10, 5,9,4]
+# n =len(list_num)
+# for i in range(n -1):
+#      for j in range(n-i-1):
+#           if list_num[j] > list_num[j+1]:
+#              list_num[j], list_num[j+1] = list_num[j+1], list_num[j]
+#              print(list_num)
+
+# print('a', 'b', 'c', sep='*')
+# print('d', 'e', 'f', sep='**', end='')
+# print('g', 'h', 'i', sep='+', end='%')
+# print('j', 'k', 'l', sep='-', end='\n')
+# print('m', 'n', 'o', sep='/', end='!')
+# print('p', 'q', 'r', sep='1', end='%')
+# print('s', 't', 'u', sep='&', end='\n')
+# print('v', 'w', 'x', sep='%')
+# print('y', 'z', sep='/', end='!')
+# print('i', 'like', 'Python', sep='***')
+# separator = input()
+# string1 =input() 
+# string2 =input()
+# string3 =input()
+# print(string2,string3, sep = separator)
+# print('Python', end='+')  # print('C++')
+# # print('GO')
+# print('C#', end='=')  # print('C')
+# print('awesome')
+# s = '1992'
+# year = int(s)
+# print(s)
+# num = int(input())
+# print (num , num+1 , num+2, end='\n')
+# 
+# Rib_Length =int(input())
+# print('Объем =',Rib_Length**3)
+# print('Площадь полной поверхности =',6*Rib_Length**2)
+# num_a = int(input())
+# num_b = int(input())
+# print(3*(num_a+num_b)**3+275*num_b**2 -127*num_a-41)
+# num = int(input())
+# print('Следующее за числом',num,'число:',num+1)
+# print('Для числа',num,'предыдущее число:''',num-1)
+# num1,num2,num3,num4 = int(input()),int(input()),int(input()),int(input())
+# print(num1*3+num2*3+num3*3+num4*3)
+# num1, num2 = int(input()),int(input())
+# print(num1,'+',num2,'=',num1+num2)
+# print(num1,'-',num2,'=',num1-num2)
+# print(num1,'*',num2,'=',num1*num2)
+# a,d,n = int(input()),int(input()),int(input())
+# print(a+d*(n-1),sep='\n')
+# x = int(input())
+# print(x,x*2,x*3,x*4,x*5,sep='---')
+# print('Введите первое число:')
+# num1 = int(input())
+# print('Введите делитель:')
+# num2 =int(input())
+# print('Целочисленное деление:',num1%num2)
+# a = 15 // (16 % 7)
+# b = 34 % a * 5 - 29 % 5 * 2
+# print(a + b)
+# b,q,n = int(input()),int(input()),int(input())
+# print(b*q**(n-1))
+# num_sm = int(input())
+# print(num_sm//100)
+# quantity_pupils = int(input())
+# quantity_mandarins = int(input())
+# print(quantity_mandarins//quantity_pupils)
+# print(quantity_mandarins%quantity_pupils)
+Population_n = int(input())
+print(Population_n-Population_n//2)
